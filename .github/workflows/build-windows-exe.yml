@@ -24,7 +24,7 @@ jobs:
         pip install -r requirements.txt
         pip install pyinstaller
 
-    - name: Build EXE
+    - name: Build EXE (onedir build)
       run: |
         pyinstaller downloader.spec
 
@@ -32,4 +32,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: GUI_yt_dlp_mp3_downloader
-        path: dist/MP3_MP4_Downloader/*.exe
+        path: dist/MP3_MP4_Downloader/
