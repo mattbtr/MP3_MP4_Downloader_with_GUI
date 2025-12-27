@@ -22,15 +22,13 @@
 
 ## 🚀 Verwendung (Windows – empfohlen (Python u. Ffmpeg in Build vorhanden))
 
-Gehe zu Releases oder Actions → Artifacts
+1. Gehe zu Releases oder Actions → Artifacts
 
-Lade das ZIP-Archiv herunter
+2. Lade das ZIP-Archiv herunter
 
-Entpacken
+3. Entpacken
 
-Starte:
-
-MP3_MP4_Downloader.exe
+4. Starte: MP3_MP4_Downloader.exe im entpacktem Verzeichnis
 
 ⚠️ Wichtig:
 Bei einem onedir-Build muss der komplette Ordner vorhanden bleiben – nicht nur die .exe.

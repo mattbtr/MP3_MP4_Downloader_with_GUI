@@ -57,7 +57,7 @@ class Downloader:
             "outtmpl": str(self.download_path / "%(title)s.%(ext)s"),
             "progress_hooks": [self._progress_hook],
             "quiet": True,
-            "now_warnings": True,
+            "no_warnings": True,
             "ffmpeg_location": str(self.ffmpeg_path),
             "noplaylist": True,
         }
@@ -92,16 +92,13 @@ class Downloader:
         options.update({
             "format": "bestvideo+bestaudio/best",
             # Zusatzdateien
-            "writethumbnail": True,
+            "writethumbnail": False,
             "writeinfojson": False,
             "merge_output_format": "mp4",
 
             "postprocessors": [
                 {
                     "key": "FFmpegMetadata",
-                },
-                {
-                    "key": "EmbedThumbnail",
                 },
             ],
         })
