@@ -35,7 +35,7 @@ Bei einem onedir-Build muss der komplette Ordner vorhanden bleiben – nicht nur
 
 ## 🔄 Updates
 
-yt-dlp und ffmpeg werden über Updaten Button aktuell gehalten.
+yt-dlp und ffmpeg werden über Updaten Button aktuell gehalten. Es empfiehlt sich immer die aktuellste Version vom Repo herunterzuladen und zu nutzen unter /dist/...
 
 ## 🛠️ Build (Windows EXE)
 
@@ -78,3 +78,5 @@ CustomTkinter
 PyInstaller
 
 GitHub Actions
+
+
